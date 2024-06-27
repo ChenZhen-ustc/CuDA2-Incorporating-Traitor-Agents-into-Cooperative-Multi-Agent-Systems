@@ -20,7 +20,7 @@ python3 src/main.py --config=qmix action_type=random traitor_num=1 --env-config=
 python3 src/main.py --config=qmix action_type=minus_r traitor_num=1 --env-config=sc2 with env_args.map_name=7m_vs_6m
 python3 src/main.py --config=qmix action_type=PBRS_RND traitor_num=1 --env-config=sc2 with env_args.map_name=7m_vs_6m
 ```
-Note that you have to run "origin" before you can run one with traitors. And you also have to run "random" before running "PBRS_RND"
+Note that you have to run "origin" before you can run one with traitors. And you also have to run "random" before running "PBRS_RND".
 Or you can simply run:
 ```sh
 bash auto.sh
